@@ -42,6 +42,7 @@ web:
     - INVENIO_ELASTICSEARCH_HOST=elasticsearch
     - INVENIO_RABBITMQ_HOST=rabbitmq
     - INVENIO_WORKER_HOST=127.0.0.1
+    - CFG_SITE_SECURE_URL=http://127.0.0.1:5000
   volumes_from:
     - static
   links:
